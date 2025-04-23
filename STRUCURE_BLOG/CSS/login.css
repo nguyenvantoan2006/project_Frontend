@@ -1,0 +1,119 @@
+/* Toàn bộ container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+    padding: 0 20px;
+}
+
+/* Form đăng nhập */
+.form-container {
+    max-width: 450px;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin-right: 30px; /* Khoảng cách giữa form và ảnh */
+    flex: 1; /* Chỉ định form chiếm 1 phần không gian */
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.or-text {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-icon {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #007bff;
+}
+
+.social-icon:hover {
+    color: #0056b3;
+}
+
+p {
+    text-align: center;
+    color: #333;
+}
+
+p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+/* Căn chỉnh ảnh */
+.image-container {
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1; /* Ảnh chiếm phần còn lại của không gian */
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Đảm bảo ảnh không bị kéo dãn */
+}
+
+/* Footer */
+.footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+}
+
+.footer .social-icons {
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.footer .social-icon {
+    font-size: 18px;
+    color: white;
+    margin: 0 10px;
+}

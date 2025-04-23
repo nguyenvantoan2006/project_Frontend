@@ -1,0 +1,104 @@
+/* Cấu trúc reset cơ bản */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, rgb(186, 183, 183) 0%, rgb(44, 1, 85) 100%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Container chứa form và text */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  /* Căn các phần tử theo chiều dọc */
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+/* Styling cho phần văn bản "Welcome to the website" */
+/* Thêm các thuộc tính CSS để đảm bảo hiển thị đúng */
+/* Căn chỉnh chữ Welcome to the website và RIKKEI EDUCATION */
+.welcome-text {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center; /* Căn giữa */
+    margin-bottom: 20px; /* Khoảng cách với form */
+    color: #fff; /* Màu trắng */
+}
+
+.welcome-subtext {
+    font-size: 20px;
+    text-align: center; /* Căn giữa */
+    color: #fff; /* Màu trắng */
+    margin-bottom: 40px; /* Khoảng cách với form */
+}
+
+
+
+/* Form container */
+.form-container {
+    background-color: #ffffff;
+    padding: 40px 50px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    text-align: center;
+    position: relative;
+}
+
+/* Styling cho các ô nhập liệu */
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Nút đăng ký */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Liên kết đăng nhập */
+p {
+    font-size: 18px;
+    color: #000; /* Hoặc màu sắc bạn mong muốn */
+    text-align: center; /* Căn giữa */
+    margin-top: 20px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
